@@ -1,12 +1,17 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header class="bg-blue-800 text-white sticky top-0 shadow-md">
+<body class="font-sans text-gray-900 bg-blue-50">
+
+  <!-- Header / Navbar -->
+  <header class="bg-blue-800 text-white sticky top-0 shadow-md">
     <nav class="container mx-auto flex justify-between items-center py-4 px-6">
       <h1 class="text-2xl font-bold">Hello, I’m Judith</h1>
       <ul class="flex space-x-6">
@@ -16,17 +21,18 @@
       </ul>
     </nav>
   </header>
+
+  <!-- Hero Greeting Section -->
   <section class="text-center py-20 bg-blue-100">
     <h2 class="text-4xl font-bold mb-4 text-blue-900">Welcome to My Portfolio</h2>
     <p class="text-lg text-gray-700 max-w-2xl mx-auto">
       I’m <span class="font-semibold">Judith</span>, a passionate learner and aspiring web developer.  
       I love creating clean, modern, and responsive websites that bring ideas to life.
     </p>
-  </section >
-    <h2>Welcome to My Portfolio</h2>
-    <p>This is a simple introduction about me.</p>
   </section>
-<section id="about" class="container mx-auto px-6 py-16 flex flex-col md:flex-row items-center gap-10">
+
+  <!-- About Section -->
+  <section id="about" class="container mx-auto px-6 py-16 flex flex-col md:flex-row items-center gap-10">
     <img src="image.jpg" alt="Judith" class="w-48 h-48 rounded-full shadow-lg border-4 border-blue-300">
     <div>
       <h2 class="text-3xl font-bold mb-4 text-blue-900">About Me</h2>
@@ -37,7 +43,8 @@
       </p>
     </div>
   </section>
-<!-- Projects Section -->
+
+  <!-- Projects Section -->
   <section id="projects" class="py-16">
     <div class="container mx-auto px-6">
       <h2 class="text-3xl font-bold mb-10 text-center text-blue-900">Projects</h2>
@@ -61,11 +68,12 @@
     </div>
   </section>
 
- <!-- Contact Section -->
+  <!-- Contact Section -->
   <section id="contact" class="container mx-auto px-6 py-16">
     <h2 class="text-3xl font-bold mb-6 text-center text-blue-900">Get In Touch</h2>
     <p class="text-center text-gray-700 mb-8">I’d love to hear from you! Feel free to drop me a message below.</p>
-    <!-- Contact card -->
+    
+    <!-- Contact Card -->
     <div class="bg-white shadow-lg rounded-xl p-8 max-w-lg mx-auto">
       <form class="space-y-4">
         <input type="text" placeholder="Your Name" required
@@ -82,8 +90,8 @@
     </div>
   </section>
 
- <!-- Footer -->
-<footer class="bg-blue-900 text-white py-6 text-center">
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white py-6 text-center">
     <p>&copy; 2025 Judith. Made with TailwindCSS.</p>
   </footer>
 
